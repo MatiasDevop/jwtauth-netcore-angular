@@ -18,7 +18,6 @@ D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\bin\Debug\net5.0\Swashbuckle.A
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\JWTappbase.api.csprojAssemblyReference.cache
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\JWTappbase.api.GeneratedMSBuildEditorConfig.editorconfig
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\JWTappbase.api.AssemblyInfoInputs.cache
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\JWTappbase.api.AssemblyInfo.cs
