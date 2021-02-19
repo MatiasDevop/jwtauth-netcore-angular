@@ -27,10 +27,17 @@ namespace JWTappbase.api.Controllers
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"));
                 var signingCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
+                //adding roles 
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Role, "Manager")
+                };
+
                 var tokenOptions = new JwtSecurityToken(
                     issuer: "https://localhost:5001",
                     audience: "https://localhost:5001",
-                    claims: new List<Claim>(),
+                    claims: claims,//new List<Claim>(),
                     expires: DateTime.Now.AddMinutes(5),
                     signingCredentials: signingCredentials
                     );

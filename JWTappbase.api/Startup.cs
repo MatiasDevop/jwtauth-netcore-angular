@@ -51,8 +51,8 @@ namespace JWTappbase.api
                           ValidateAudience = true,
                           ValidateLifetime = true,
                           ValidateIssuerSigningKey = true,
-                          ValidIssuer = "https://localhost:5001",
-                          ValidAudience = "https://localhost:5001",
+                          ValidIssuer = Configuration["AuthSettings:Issuer"], //"https://localhost:5001",
+                          ValidAudience = Configuration["AuthSettings:Audience"], //", //https://localhost:5001",
                           IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"))
                       };
                       config.RequireHttpsMetadata = false;

@@ -12,7 +12,7 @@ namespace JWTappbase.api.Controllers
     public class CustomerController : ControllerBase
     {
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles = "Manager")]
         public IEnumerable<string> Index()
         {
             return new string[] { "jhon doe", "sarah connor" };

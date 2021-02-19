@@ -33,3 +33,4 @@ D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\JWTappbase.ap
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\ref\JWTappbase.api.dll
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\JWTappbase.api.pdb
 D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\JWTappbase.api.genruntimeconfig.cache
+D:\NET 5 Devlopment\JWTappbase.api\JWTappbase.api\obj\Debug\net5.0\JWTappbase.api.csprojAssemblyReference.cache
